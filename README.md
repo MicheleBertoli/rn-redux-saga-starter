@@ -25,3 +25,9 @@ $ npm start            # starts the development server
 
 ##### iOS:
 Open `RNReduxSagaStarter.xcodeproj` in Xcode, build and run the project.
+
+## Test
+
+```shell
+$ npm test
+```
