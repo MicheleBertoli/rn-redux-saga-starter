@@ -12,7 +12,7 @@
     "url": "https://github.com/paolorovella/rn-redux-saga-starter/issues"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel-register ./test/**/*.spec.js",
+    "test": "mocha --require ./test/setup.js --compilers js:babel-register ./test/**/*.spec.js",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "ios": "react-native run-ios"
   },
@@ -32,11 +32,16 @@
     "babel-cli": "^6.9.0",
     "babel-eslint": "^6.0.4",
     "babel-preset-react-native-stage-0": "^1.0.1",
+    "enzyme": "^2.3.0",
     "eslint": "^2.8.0",
     "eslint-config-airbnb": "^8.0.0",
     "eslint-plugin-import": "^1.6.0",
     "eslint-plugin-jsx-a11y": "^1.0.3",
     "eslint-plugin-react": "^5.0.1",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "react-addons-test-utils": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-native-mock": "^0.1.0",
+    "sinon": "^1.17.4"
   }
 }
